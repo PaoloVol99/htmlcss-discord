@@ -55,7 +55,7 @@ START of DEBUG RULES
     background-color: orange;
 }
 
-.debug .col-pink {
+.debug .col-first {
     background-color: violet;
     min-height: 400px;
 }
@@ -146,6 +146,11 @@ END of DEBUG RULES
 .container-2 {
     max-width: 800px;
     margin: 0 auto;
+    height: 510px;
+    padding: 100px 30px;
+    color: white;
+    text-align: center;
+    line-height: 26px;
 }
 
 .section-blue {
@@ -206,6 +211,41 @@ END of DEBUG RULES
     margin: 0 20px;
     font-weight: 400;
     font-size: 14px;
+}
+
+.section-first {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-1 {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 100px;
+}
+
+.download,
+.in-browser {
+    text-decoration: none;
+    border: none;
+    padding: 22px 22px;
+    border-radius: 32px;
+    margin: 15px 5px 0;
+    font-size: 16px;
+}
+
+.in-browser {
+    background-color: #23272A;
+    color: white;
+}
+
+.download {
+    background-color: white;
+}
+
+.download::before {
+    content: "\2193";
 }
 
 

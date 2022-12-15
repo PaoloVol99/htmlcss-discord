@@ -278,7 +278,7 @@ END of DEBUG RULES
 }
 
 .title-last {
-    font-size: 34px;
+    font-size: 28px;
     text-align: center;
     width: 600px;
     margin: 0 auto;
@@ -302,7 +302,7 @@ END of DEBUG RULES
 .stars {
     margin: 0 auto;
     display: block;
-    width: 650px;
+    width: 550px;
     margin-top: 20px;
 }
 

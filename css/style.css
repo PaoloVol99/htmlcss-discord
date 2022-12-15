@@ -17,6 +17,11 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
 /************
 START of DEBUG RULES
 ***********/
@@ -287,16 +292,8 @@ END of DEBUG RULES
     background-position: top;
     background-size: contain;
     margin-top: -30px;
+    margin-bottom: 40px;
 
-}
-
-.main-footer {
-    background-color: #23272A;
-}
-
-.footer-title {
-    font-size: 26px;
-    color: white;
 }
 
 .stars {
@@ -306,8 +303,91 @@ END of DEBUG RULES
     margin-top: 20px;
 }
 
+.main-footer {
+    background-color: #23272A;
+}
 
-/* #7289DA  colore viola */
+.footer-title {
+    font-size: 26px;
+    color: #7289DA;
+    width: 200px;
+    line-height: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container-footer {
+    padding: 50px 45px;
+    border-bottom: 1px solid white;
+}
+
+.language {
+    display: inline-block;
+    color: white;
+}
+
+.flag {
+    width: 20px;
+}
+
+.socials {
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.socials a{
+    margin: 0 5px 0;
+}
+
+.list-name {
+    color: #7289DA;
+    font-weight: 600;
+    margin: 0 40px 0 0;
+}
+
+.col-16 {
+    font-size: 14px;
+    color: white
+}
+
+li {
+    margin: 15px 0;
+}
+
+[class$="list"] {
+    margin: 0 40px 0 0;
+}
+
+.col-2x {
+    margin-right: 0;
+}
+
+.container-footer-2 {
+    padding: 15px 0 35px;
+}
+
+.sign-up {
+    text-decoration: none;
+    border: none;
+    background-color: #7289DA;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.download-2 {
+    text-decoration: none;
+    border: none;
+    background-color: #7289DA;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.download-2::before {
+    content: "\2193";
+}
 
 
 

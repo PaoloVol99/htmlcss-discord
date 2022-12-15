@@ -150,7 +150,6 @@ END of DEBUG RULES
     padding: 100px 30px;
     color: white;
     text-align: center;
-    line-height: 26px;
 }
 
 .section-blue {
@@ -174,6 +173,7 @@ END of DEBUG RULES
 
 .row-cols-2 .col-40 {
     flex-basis: 40%;
+    padding-top: 25px;
 }
 
 .row-cols-5 .col {
@@ -219,8 +219,12 @@ END of DEBUG RULES
     background-position: center;
 }
 
-.title-1 {
+[class*=title] {
     font-size: 46px;
+    line-height: 55px;
+}
+
+.title-1 {
     font-weight: 800;
     line-height: 100px;
 }
@@ -246,6 +250,25 @@ END of DEBUG RULES
 
 .download::before {
     content: "\2193";
+}
+
+.row-cols-2 {
+    padding: 80px 0 80px;
+    align-items: flex-start;
+}
+
+.title-2,
+.title-3 {
+    font-weight: 600;
+}
+
+.section-grey {
+    background-color: #F6F6F6;
+}
+
+.paragraph {
+    line-height: 26px;
+    margin-top: 20px;
 }
 
 

@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+.debug header{
+    background-color: lightblue;
+}
+
+.debug footer {
+    background-color: rgb(24, 24, 24);
+}
+
+.debug .container {
+    padding: 30px 0;
+}
+
+.debug .container-header {
+    padding: 20px 0;
+    min-height: 70px;
+}
+
+.debug .container-footer {
+    padding: 5px 0 30px;
+}
+
+.debug .container-2 {
+    padding: 30px 0;
+}
+
+.debug [class^='col'] {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.debug .row-cols-3 > .col {
+    background-color: orange;
+}
+
+.debug .col-pink {
+    background-color: violet;
+    min-height: 400px;
+}
+
+.debug .col-green {
+    background-color: green;
+    min-height: 800px;
+}
+
+.debug .col-60 {
+    background-color: cornflowerblue;
+}
+
+.debug .col-40 {
+    background-color: pink;
+}
+
+.debug .section-white {
+    background-color: white;
+}
+
+.debug .section-grey {
+    background-color: lightgrey;
+}
+
+.debug .row-cols-2 {
+    min-height: 400px;
+}
+
+.debug .row-cols-5 {
+    min-height: 600px;
+}
+
+.debug .row-cols-5 .col {
+    border: 2px dashed white;
+    background-color: rgb(0, 172, 115);
+}
+
+.debug .row-cols-5 .col-2x {
+    border: 2px dashed black;
+    background-color: salmon;
+}
+
+.debug .row-last {
+    min-height: 80px;
+    background-color: aqua;
+}
+
+.debug .row-last .col {
+    background-color: salmon;
+}
+
+.debug .container-footer-2 {
+    border-top: 1px solid white;
+    padding: 20px 0 0 0;
+}
+
+.container, 
+.container-header,
+.container-footer,
+.container-footer-2 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-blue {
+    background-color: navy;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-header .row {
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* .row-cols-3 > .col {
+    flex-basis: calc(100% / 5);
+}
+
+.row-cols-3 > .col-link {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.row-cols-3 > .col-login {
+    text-align: right;
+} */
+
+.row-cols-2 .col-60 {
+    flex-basis: 60%;
+}
+
+.row-cols-2 .col-40 {
+    flex-basis: 40%;
+}
+
+.row-cols-5 .col {
+    flex-basis: calc(100% / 6);
+}
+
+.row-cols-5 .col-2x {
+    flex-basis: calc(100% / 3);
+}
+
+.row-last {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
